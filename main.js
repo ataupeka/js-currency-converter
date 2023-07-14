@@ -55,6 +55,11 @@ async function getCurrencies () {
 
 
 
-input.oninput = function(){
-    result.value = (parseFloat(input.value) / rates[select.value].Value).toFixed(2);
-;}
+input.oninput = convertValue;
+
+select.oninput = convertValue;
+
+
+function convertValue() {
+    result.value = (parseFloat(input.value) / rates[select.value].Value).toFixed(2);  
+};
