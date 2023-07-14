@@ -1,0 +1,52 @@
+
+
+.currency {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.currency-item{
+    display: flex;
+    justify-content: scenter;
+    padding: 20px;
+   
+
+   
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.row{
+    display: flex;
+   flex-direction:column;
+}
+
+
+
+
+
+
+
+
+.top {
+    color: green;
+}
+
+.bottom {
+    color: red ;
+}
